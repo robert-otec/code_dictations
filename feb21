@@ -1,0 +1,10 @@
+colors = ["red", "blue"]
+colors.append("green")
+colors.append("yellow")
+
+print("Initial colors:", ["red", "blue"])
+print(f"Updated colors: {colors}")
+
+color_count = len(colors)
+print(f"Total number of colors: {color_count}")
+      
